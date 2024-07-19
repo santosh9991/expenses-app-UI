@@ -1,0 +1,70 @@
+/* Center the form on the page */
+.login, .register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+/* Style the form */
+.login form, .register form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 300px;
+}
+
+/* Style the labels */
+.login label, .register label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style the inputs */
+.login input, .register input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Style the button */
+.login button, .register button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.login button:hover, .register button:hover {
+    background-color: #218838;
+}
+
+/* Style the toggle buttons */
+.login > div button, .register > div button {
+    margin-top: 10px;
+    background: none;
+    border: none;
+    color: #007bff;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Toggle button hover effect */
+.login > div button:hover, .register > div button:hover {
+    color: #0056b3;
+}

@@ -1,0 +1,19 @@
+.header{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 200px;
+        height: 100px;
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        margin: 5px;
+        padding: 5px;
+        li{
+            margin: 5px;
+            padding: 5px;
+        }
+    }
+}

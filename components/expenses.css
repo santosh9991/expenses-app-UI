@@ -1,0 +1,57 @@
+/* .expenses{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .add-expense {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border: solid;
+        width: 400px;
+        height: 50vh;
+        form{
+            display: flex;
+            flex-direction: column;
+            margin: 5px;
+            margin: 5px;
+            input{
+                margin: 5px;
+                padding: 5px;
+            }
+            label{
+                margin: 5px;
+                padding: 5px;
+            }
+            button{
+                padding: 5px;
+                margin-top: 40px;
+                background-color: rgb(74, 198, 74);
+
+            }
+        }
+    }
+    .expenses-list{
+        ul{
+            list-style-type: none;
+        }
+    }
+   
+}
+.expense-list-item{
+    border-bottom: solid;
+    display: flex;
+    h3{
+        margin: 5px;
+        padding: 5px;
+    }
+} */
+.expenses{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}

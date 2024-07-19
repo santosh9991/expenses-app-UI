@@ -1,0 +1,24 @@
+{
+  "name": "expenses-app-ui",
+  "version": "1.0.0",
+  "description": "expense tracker app",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sk",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "jwt-decode": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.1"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  }
+}
