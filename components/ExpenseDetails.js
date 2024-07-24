@@ -1,3 +1,4 @@
-export default ExpenseDetails = ()=>{
+const ExpenseDetails = ()=>{
     return(<div>ExpenseDetails</div>)
 }
+export default ExpenseDetails;

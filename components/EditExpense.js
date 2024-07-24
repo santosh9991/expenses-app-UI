@@ -3,7 +3,7 @@ import { getUpdatedReqBody } from "../utils/commonUtils";
 import { useNavigate, useParams } from "react-router";
 import axios from "axios";
 
-export default EditExpense = () => {
+const EditExpense = () => {
     const [formData,setFormData] = useState({
         amount:'',
         category:'',
@@ -97,4 +97,4 @@ export default EditExpense = () => {
       </div>
     );
   };
-  
+  export default EditExpense;

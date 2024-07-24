@@ -1,4 +1,4 @@
-export default AddExpense = ({formData, handleFormData, handleSubmit}) => {
+const AddExpense = ({formData, handleFormData, handleSubmit}) => {
     
   return (
     <div className="add-expense">
@@ -55,3 +55,4 @@ export default AddExpense = ({formData, handleFormData, handleSubmit}) => {
     </div>
   );
 };
+export default AddExpense;

@@ -5,7 +5,7 @@ import {formatDateToMMDDYYYY, getUpdatedReqBody} from '../utils/commonUtils'
 import AddExpense from './AddExpense';
 import ExpensesTable from './ExpensesTable';
 import { useNavigate } from 'react-router';
-export default Expenses = ()=>{
+const Expenses = ()=>{
     const [formData,setFormData] = useState({
         amount:'',
         category:'',
@@ -85,3 +85,4 @@ export default Expenses = ()=>{
         
     </div>)
 }
+export default Expenses;

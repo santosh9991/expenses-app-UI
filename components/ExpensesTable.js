@@ -1,7 +1,7 @@
 
 import './expensesTable.css';
 import { formatDateToMMDDYYYY } from '../utils/commonUtils';
-export default ExpensesTable = ({expensesList, handleEdit, handleDelete})=>{
+const ExpensesTable = ({expensesList, handleEdit, handleDelete})=>{
     return (<div className='expenses-list'>
     {/* <ul>
            {expensesList && expensesList.map((expense)=>{
@@ -42,3 +42,4 @@ export default ExpensesTable = ({expensesList, handleEdit, handleDelete})=>{
     </table>
     </div>)
 }
+export default ExpensesTable;

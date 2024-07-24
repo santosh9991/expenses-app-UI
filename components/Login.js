@@ -4,7 +4,7 @@ import axios from 'axios'
 import UserContext from "../utils/UserContex";
 import { useNavigate } from "react-router";
 
-export default Login = ()=>{
+const Login = ()=>{
     const [registerUserView, setRegisterUserView] = useState(false);
     const navigate = useNavigate();
     const [userInfo, setUserInfo] = useState({
@@ -70,3 +70,4 @@ export default Login = ()=>{
         </div>
     )
 }
+export default Login;
