@@ -2,7 +2,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import './header.css'
 import { useContext } from 'react';
 import UserContext from '../utils/UserContex';
-export default Header = ()=>{
+const Header = ()=>{
     const navigate = useNavigate();
     const {setUserName} = useContext(UserContext);
     const onLogoutClickHandler = (e)=>{
@@ -23,3 +23,5 @@ export default Header = ()=>{
         </div>
     )
 }
+
+export default Header;
