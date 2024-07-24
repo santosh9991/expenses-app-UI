@@ -1,6 +1,6 @@
 import {jwtDecode} from 'jwt-decode';
 
-export default getUSerDetails =()=>{
+const getUSerDetails =()=>{
     const token = localStorage.getItem('token');
     if (!token) return null;
 
@@ -12,3 +12,4 @@ export default getUSerDetails =()=>{
         return null;
     }
 }
+export default getUSerDetails
